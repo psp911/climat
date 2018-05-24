@@ -35,8 +35,8 @@ if (humidity2 is not None) and (temperature2 is not None):
 
 # Подключиться к базе данных.
 connection = pymysql.connect(host='192.168.1.46',
-                             user='psp2',
-                             password='9546595465mysql2',
+                             user='user',
+                             password='pass',
                              db='climat',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
